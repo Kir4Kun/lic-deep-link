@@ -32,9 +32,10 @@ const getAppInstallLink = () => {
 
 window.addEventListener("load", (event) => {
   const storeLink = getAppInstallLink();
+  const path = window.location.pathname
   const queryString = window.location.search;
 
-  const deepLink = APP_SCHEME + "PANScreen";
+  const deepLink = APP_SCHEME + pathname + queryString;
 
   return launchApp(deepLink, storeLink);
 });
