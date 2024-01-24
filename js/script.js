@@ -1,8 +1,8 @@
-const APP_STORE_LINK = "APP_APPLE_STORE_URL";
-const PRAY_STORE_LINK =
-  "https://play.google.com/store/apps/details?id=PACKAGE_NAME";
+const APP_STORE_LINK = "https://online.licmf.com/";
+const PLAY_STORE_LINK =
+  "https://online.licmf.com/E";
 
-const WEB_LINK = "https://mytestingapp.com/content";
+const WEB_LINK = "https://online.licmf.com/";
 
 const APP_SCHEME = "lic-investor://";
 
