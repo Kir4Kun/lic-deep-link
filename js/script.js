@@ -35,7 +35,7 @@ window.addEventListener("load", (event) => {
   const path = window.location.pathname
   const queryString = window.location.search;
 
-  const deepLink = APP_SCHEME + pathname + queryString;
+  const deepLink = APP_SCHEME + path + queryString;
 
   return launchApp(deepLink, storeLink);
 });
