@@ -34,7 +34,7 @@ window.addEventListener("load", (event) => {
   const storeLink = getAppInstallLink();
   const queryString = window.location.search;
 
-  const deepLink = APP_SCHEME + "content" + "?" + queryString;
+  const deepLink = APP_SCHEME + "PANScreen";
 
   return launchApp(deepLink, storeLink);
 });
